@@ -9,5 +9,7 @@ clap = { version = "4.5", features = ["derive"] }
 env_logger = "0.11"
 futures = "0.3"
 log = "0.4"
-lwip = "0.3.15"
+lwip = "0.3"
 tokio = { version = "1", features = ["full"] }
+tokio-tun = "0.12"
+udp-stream = "0.0"
